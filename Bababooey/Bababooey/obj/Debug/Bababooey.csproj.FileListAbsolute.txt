@@ -1,0 +1,59 @@
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Bababooey.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Bababooey.pdb
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Bababooey.Bababooey.apk
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Bababooey.Bababooey-Signed.apk
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Annotations.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Compat.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Core.UI.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Core.Utils.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Fragment.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.Android.Support.Media.Compat.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.GooglePlayServices.Ads.Lite.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Xamarin.GooglePlayServices.Basement.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Basement.dll.stamp
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\Xamarin.GooglePlayServices.Ads.Lite.dll.stamp
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\proguard\dc663e480.txt
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\dc663e48.proguard.stamp
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\proguard\e843ef2a0.txt
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\XbdMerge\e843ef2a.proguard.stamp
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\Bababooey.csproj.CoreCompileInputs.cache
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\Bababooey.dll
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\Bababooey.pdb
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\android\bin\Bababooey.Bababooey.apk
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\layout\main.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\values\strings.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\drawable\icon.png
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\raw\bababooey.mp3
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\drawable\roundbutton.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\values\styles.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\values\md_colors.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\values\color.xml
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\res\drawable\ic_launcher.png
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\R.cs.flag
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\obj\Debug\uploadflags.txt
+C:\Users\HF\Documents\Visual Studio 2015\Projects\Bababooey\Bababooey\bin\Debug\Bababooey.dll
+bin\Debug\Microsoft.CSharp.pdb
+bin\Debug\Mono.Android.pdb
+bin\Debug\mscorlib.pdb
+bin\Debug\System.Core.pdb
+bin\Debug\System.pdb
+bin\Debug\System.Xml.pdb
+bin\Debug\System.Xml.Linq.pdb
+bin\Debug\System.Net.Http.pdb
+bin\Debug\System.Runtime.Serialization.pdb
+bin\Debug\System.ServiceModel.Internals.pdb
+bin\Debug\Mono.Security.pdb
+bin\Debug\System.ComponentModel.Composition.pdb
+obj\Debug\linksrc\Bababooey.dll.mdb
+obj\Debug\linksrc\Microsoft.CSharp.pdb
+obj\Debug\linksrc\Mono.Android.pdb
+obj\Debug\linksrc\mscorlib.pdb
+obj\Debug\linksrc\System.Core.pdb
+obj\Debug\linksrc\System.pdb
+obj\Debug\linksrc\System.Xml.pdb
+obj\Debug\linksrc\System.Xml.Linq.pdb
+obj\Debug\linksrc\System.Net.Http.pdb
+obj\Debug\linksrc\System.Runtime.Serialization.pdb
+obj\Debug\linksrc\System.ServiceModel.Internals.pdb
+obj\Debug\linksrc\Mono.Security.pdb
+obj\Debug\linksrc\System.ComponentModel.Composition.pdb

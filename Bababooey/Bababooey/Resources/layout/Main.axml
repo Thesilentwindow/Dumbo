@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/MainLayout"
+    android:gravity="center">
+  <Button
+      android:id="@+id/Bababooey"
+      android:layout_width="100sp"
+      android:layout_height="100sp"
+      android:background="@drawable/roundbutton"
+      android:textAlignment="center"
+      android:text="@string/Bababooey"
+      android:textColor="#000000" />
+  <TextView
+      android:text="Bababooeys"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/Bababooeys"
+      android:gravity="center"
+      android:textStyle="bold" />
+  <TextView
+      android:text="@string/BababooeyCounter"
+      android:textAppearance="?android:attr/textAppearanceLarge"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:id="@+id/BababooeyCount"
+      android:gravity="center"
+      android:textStyle="bold" />
+  <com.google.android.gms.ads.AdView xmlns:googleads="http://schemas.android.com/apk/lib/com.google.ads"
+        android:id="@+id/adView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        ads:adSize="BANNER"
+        ads:adUnitId="@string/banner_ad_unit_id"/>
+</LinearLayout>

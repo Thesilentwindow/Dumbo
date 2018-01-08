@@ -1,0 +1,4 @@
+Bababooey.MainActivity, Bababooey;md5807982686ca9dda941557f78470261e2.MainActivity
+Bababooey.MainActivity, Bababooey, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null;md5807982686ca9dda941557f78470261e2.MainActivity
+Bababooey.MainActivity;md5807982686ca9dda941557f78470261e2.MainActivity
+bababooey.MainActivity;md5807982686ca9dda941557f78470261e2.MainActivity

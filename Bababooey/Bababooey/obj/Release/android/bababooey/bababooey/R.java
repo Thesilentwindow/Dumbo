@@ -9,340 +9,788 @@ package bababooey.bababooey;
 
 public final class R {
     public static final class attr {
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSize=0x7f010000;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adSizes=0x7f010001;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int adUnitId=0x7f010002;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int font=0x7f01000a;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderAuthority=0x7f010003;
+        /** <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+         */
+        public static final int fontProviderCerts=0x7f010006;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
+<tr><td><code>async</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int fontProviderFetchStrategy=0x7f010007;
+        /** <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
+</table>
+         */
+        public static final int fontProviderFetchTimeout=0x7f010008;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderPackage=0x7f010004;
+        /** <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontProviderQuery=0x7f010005;
+        /** <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>italic</code></td><td>1</td><td></td></tr>
+</table>
+         */
+        public static final int fontStyle=0x7f010009;
+        /** <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+         */
+        public static final int fontWeight=0x7f01000b;
+    }
+    public static final class bool {
+        public static final int abc_action_bar_embed_tabs=0x7f090000;
     }
     public static final class color {
         /**  Blue 
          */
-        public static final int AccentColor=0x7f050001;
+        public static final int AccentColor=0x7f080008;
         /**  Green 
          */
-        public static final int OtherColor1=0x7f050002;
+        public static final int OtherColor1=0x7f080009;
         /**  Purple 
          */
-        public static final int OtherColor2=0x7f050003;
-        public static final int PrimColor=0x7f050000;
-        public static final int md_amber_100=0x7f0500bb;
-        public static final int md_amber_200=0x7f0500bc;
-        public static final int md_amber_300=0x7f0500bd;
-        public static final int md_amber_400=0x7f0500be;
+        public static final int OtherColor2=0x7f08000a;
+        public static final int PrimColor=0x7f080007;
+        public static final int md_amber_100=0x7f0800c2;
+        public static final int md_amber_200=0x7f0800c3;
+        public static final int md_amber_300=0x7f0800c4;
+        public static final int md_amber_400=0x7f0800c5;
         /** amber
          */
-        public static final int md_amber_50=0x7f0500ba;
-        public static final int md_amber_500=0x7f0500bf;
-        public static final int md_amber_600=0x7f0500c0;
-        public static final int md_amber_700=0x7f0500c1;
-        public static final int md_amber_800=0x7f0500c2;
-        public static final int md_amber_900=0x7f0500c3;
-        public static final int md_amber_A100=0x7f0500c4;
-        public static final int md_amber_A200=0x7f0500c5;
-        public static final int md_amber_A400=0x7f0500c6;
-        public static final int md_amber_A700=0x7f0500c7;
-        public static final int md_black_1000=0x7f0500f8;
-        public static final int md_blue_100=0x7f05004b;
-        public static final int md_blue_200=0x7f05004c;
-        public static final int md_blue_300=0x7f05004d;
-        public static final int md_blue_400=0x7f05004e;
+        public static final int md_amber_50=0x7f0800c1;
+        public static final int md_amber_500=0x7f0800c6;
+        public static final int md_amber_600=0x7f0800c7;
+        public static final int md_amber_700=0x7f0800c8;
+        public static final int md_amber_800=0x7f0800c9;
+        public static final int md_amber_900=0x7f0800ca;
+        public static final int md_amber_A100=0x7f0800cb;
+        public static final int md_amber_A200=0x7f0800cc;
+        public static final int md_amber_A400=0x7f0800cd;
+        public static final int md_amber_A700=0x7f0800ce;
+        public static final int md_black_1000=0x7f0800ff;
+        public static final int md_blue_100=0x7f080052;
+        public static final int md_blue_200=0x7f080053;
+        public static final int md_blue_300=0x7f080054;
+        public static final int md_blue_400=0x7f080055;
         /** blue
          */
-        public static final int md_blue_50=0x7f05004a;
-        public static final int md_blue_500=0x7f05004f;
-        public static final int md_blue_600=0x7f050050;
-        public static final int md_blue_700=0x7f050051;
-        public static final int md_blue_800=0x7f050052;
-        public static final int md_blue_900=0x7f050053;
-        public static final int md_blue_A100=0x7f050054;
-        public static final int md_blue_A200=0x7f050055;
-        public static final int md_blue_A400=0x7f050056;
-        public static final int md_blue_A700=0x7f050057;
-        public static final int md_blue_grey_100=0x7f0500fb;
-        public static final int md_blue_grey_200=0x7f0500fc;
-        public static final int md_blue_grey_300=0x7f0500fd;
-        public static final int md_blue_grey_400=0x7f0500fe;
+        public static final int md_blue_50=0x7f080051;
+        public static final int md_blue_500=0x7f080056;
+        public static final int md_blue_600=0x7f080057;
+        public static final int md_blue_700=0x7f080058;
+        public static final int md_blue_800=0x7f080059;
+        public static final int md_blue_900=0x7f08005a;
+        public static final int md_blue_A100=0x7f08005b;
+        public static final int md_blue_A200=0x7f08005c;
+        public static final int md_blue_A400=0x7f08005d;
+        public static final int md_blue_A700=0x7f08005e;
+        public static final int md_blue_grey_100=0x7f080102;
+        public static final int md_blue_grey_200=0x7f080103;
+        public static final int md_blue_grey_300=0x7f080104;
+        public static final int md_blue_grey_400=0x7f080105;
         /** blue grey
          */
-        public static final int md_blue_grey_50=0x7f0500fa;
-        public static final int md_blue_grey_500=0x7f0500ff;
-        public static final int md_blue_grey_600=0x7f050100;
-        public static final int md_blue_grey_700=0x7f050101;
-        public static final int md_blue_grey_800=0x7f050102;
-        public static final int md_blue_grey_900=0x7f050103;
-        public static final int md_brown_100=0x7f0500e5;
-        public static final int md_brown_200=0x7f0500e6;
-        public static final int md_brown_300=0x7f0500e7;
-        public static final int md_brown_400=0x7f0500e8;
+        public static final int md_blue_grey_50=0x7f080101;
+        public static final int md_blue_grey_500=0x7f080106;
+        public static final int md_blue_grey_600=0x7f080107;
+        public static final int md_blue_grey_700=0x7f080108;
+        public static final int md_blue_grey_800=0x7f080109;
+        public static final int md_blue_grey_900=0x7f08010a;
+        public static final int md_brown_100=0x7f0800ec;
+        public static final int md_brown_200=0x7f0800ed;
+        public static final int md_brown_300=0x7f0800ee;
+        public static final int md_brown_400=0x7f0800ef;
         /** brown 
          */
-        public static final int md_brown_50=0x7f0500e4;
-        public static final int md_brown_500=0x7f0500e9;
-        public static final int md_brown_600=0x7f0500ea;
-        public static final int md_brown_700=0x7f0500eb;
-        public static final int md_brown_800=0x7f0500ec;
-        public static final int md_brown_900=0x7f0500ed;
-        public static final int md_cyan_100=0x7f050067;
-        public static final int md_cyan_200=0x7f050068;
-        public static final int md_cyan_300=0x7f050069;
-        public static final int md_cyan_400=0x7f05006a;
+        public static final int md_brown_50=0x7f0800eb;
+        public static final int md_brown_500=0x7f0800f0;
+        public static final int md_brown_600=0x7f0800f1;
+        public static final int md_brown_700=0x7f0800f2;
+        public static final int md_brown_800=0x7f0800f3;
+        public static final int md_brown_900=0x7f0800f4;
+        public static final int md_cyan_100=0x7f08006e;
+        public static final int md_cyan_200=0x7f08006f;
+        public static final int md_cyan_300=0x7f080070;
+        public static final int md_cyan_400=0x7f080071;
         /**  cyan 
          */
-        public static final int md_cyan_50=0x7f050066;
-        public static final int md_cyan_500=0x7f05006b;
-        public static final int md_cyan_600=0x7f05006c;
-        public static final int md_cyan_700=0x7f05006d;
-        public static final int md_cyan_800=0x7f05006e;
-        public static final int md_cyan_900=0x7f05006f;
-        public static final int md_cyan_A100=0x7f050070;
-        public static final int md_cyan_A200=0x7f050071;
-        public static final int md_cyan_A400=0x7f050072;
-        public static final int md_cyan_A700=0x7f050073;
-        public static final int md_deep_orange_100=0x7f0500d7;
-        public static final int md_deep_orange_200=0x7f0500d8;
-        public static final int md_deep_orange_300=0x7f0500d9;
-        public static final int md_deep_orange_400=0x7f0500da;
+        public static final int md_cyan_50=0x7f08006d;
+        public static final int md_cyan_500=0x7f080072;
+        public static final int md_cyan_600=0x7f080073;
+        public static final int md_cyan_700=0x7f080074;
+        public static final int md_cyan_800=0x7f080075;
+        public static final int md_cyan_900=0x7f080076;
+        public static final int md_cyan_A100=0x7f080077;
+        public static final int md_cyan_A200=0x7f080078;
+        public static final int md_cyan_A400=0x7f080079;
+        public static final int md_cyan_A700=0x7f08007a;
+        public static final int md_deep_orange_100=0x7f0800de;
+        public static final int md_deep_orange_200=0x7f0800df;
+        public static final int md_deep_orange_300=0x7f0800e0;
+        public static final int md_deep_orange_400=0x7f0800e1;
         /** deep orange
          */
-        public static final int md_deep_orange_50=0x7f0500d6;
-        public static final int md_deep_orange_500=0x7f0500db;
-        public static final int md_deep_orange_600=0x7f0500dc;
-        public static final int md_deep_orange_700=0x7f0500dd;
-        public static final int md_deep_orange_800=0x7f0500de;
-        public static final int md_deep_orange_900=0x7f0500df;
-        public static final int md_deep_orange_A100=0x7f0500e0;
-        public static final int md_deep_orange_A200=0x7f0500e1;
-        public static final int md_deep_orange_A400=0x7f0500e2;
-        public static final int md_deep_orange_A700=0x7f0500e3;
-        public static final int md_deep_purple_100=0x7f05002f;
-        public static final int md_deep_purple_200=0x7f050030;
-        public static final int md_deep_purple_300=0x7f050031;
-        public static final int md_deep_purple_400=0x7f050032;
+        public static final int md_deep_orange_50=0x7f0800dd;
+        public static final int md_deep_orange_500=0x7f0800e2;
+        public static final int md_deep_orange_600=0x7f0800e3;
+        public static final int md_deep_orange_700=0x7f0800e4;
+        public static final int md_deep_orange_800=0x7f0800e5;
+        public static final int md_deep_orange_900=0x7f0800e6;
+        public static final int md_deep_orange_A100=0x7f0800e7;
+        public static final int md_deep_orange_A200=0x7f0800e8;
+        public static final int md_deep_orange_A400=0x7f0800e9;
+        public static final int md_deep_orange_A700=0x7f0800ea;
+        public static final int md_deep_purple_100=0x7f080036;
+        public static final int md_deep_purple_200=0x7f080037;
+        public static final int md_deep_purple_300=0x7f080038;
+        public static final int md_deep_purple_400=0x7f080039;
         /**  deep purples 
          */
-        public static final int md_deep_purple_50=0x7f05002e;
-        public static final int md_deep_purple_500=0x7f050033;
-        public static final int md_deep_purple_600=0x7f050034;
-        public static final int md_deep_purple_700=0x7f050035;
-        public static final int md_deep_purple_800=0x7f050036;
-        public static final int md_deep_purple_900=0x7f050037;
-        public static final int md_deep_purple_A100=0x7f050038;
-        public static final int md_deep_purple_A200=0x7f050039;
-        public static final int md_deep_purple_A400=0x7f05003a;
-        public static final int md_deep_purple_A700=0x7f05003b;
-        public static final int md_green_100=0x7f050083;
-        public static final int md_green_200=0x7f050084;
-        public static final int md_green_300=0x7f050085;
-        public static final int md_green_400=0x7f050086;
+        public static final int md_deep_purple_50=0x7f080035;
+        public static final int md_deep_purple_500=0x7f08003a;
+        public static final int md_deep_purple_600=0x7f08003b;
+        public static final int md_deep_purple_700=0x7f08003c;
+        public static final int md_deep_purple_800=0x7f08003d;
+        public static final int md_deep_purple_900=0x7f08003e;
+        public static final int md_deep_purple_A100=0x7f08003f;
+        public static final int md_deep_purple_A200=0x7f080040;
+        public static final int md_deep_purple_A400=0x7f080041;
+        public static final int md_deep_purple_A700=0x7f080042;
+        public static final int md_green_100=0x7f08008a;
+        public static final int md_green_200=0x7f08008b;
+        public static final int md_green_300=0x7f08008c;
+        public static final int md_green_400=0x7f08008d;
         /**  green 
          */
-        public static final int md_green_50=0x7f050082;
-        public static final int md_green_500=0x7f050087;
-        public static final int md_green_600=0x7f050088;
-        public static final int md_green_700=0x7f050089;
-        public static final int md_green_800=0x7f05008a;
-        public static final int md_green_900=0x7f05008b;
-        public static final int md_green_A100=0x7f05008c;
-        public static final int md_green_A200=0x7f05008d;
-        public static final int md_green_A400=0x7f05008e;
-        public static final int md_green_A700=0x7f05008f;
-        public static final int md_grey_100=0x7f0500ef;
-        public static final int md_grey_200=0x7f0500f0;
-        public static final int md_grey_300=0x7f0500f1;
-        public static final int md_grey_400=0x7f0500f2;
+        public static final int md_green_50=0x7f080089;
+        public static final int md_green_500=0x7f08008e;
+        public static final int md_green_600=0x7f08008f;
+        public static final int md_green_700=0x7f080090;
+        public static final int md_green_800=0x7f080091;
+        public static final int md_green_900=0x7f080092;
+        public static final int md_green_A100=0x7f080093;
+        public static final int md_green_A200=0x7f080094;
+        public static final int md_green_A400=0x7f080095;
+        public static final int md_green_A700=0x7f080096;
+        public static final int md_grey_100=0x7f0800f6;
+        public static final int md_grey_200=0x7f0800f7;
+        public static final int md_grey_300=0x7f0800f8;
+        public static final int md_grey_400=0x7f0800f9;
         /** grey
          */
-        public static final int md_grey_50=0x7f0500ee;
-        public static final int md_grey_500=0x7f0500f3;
-        public static final int md_grey_600=0x7f0500f4;
-        public static final int md_grey_700=0x7f0500f5;
-        public static final int md_grey_800=0x7f0500f6;
-        public static final int md_grey_900=0x7f0500f7;
-        public static final int md_indigo_100=0x7f05003d;
-        public static final int md_indigo_200=0x7f05003e;
-        public static final int md_indigo_300=0x7f05003f;
-        public static final int md_indigo_400=0x7f050040;
+        public static final int md_grey_50=0x7f0800f5;
+        public static final int md_grey_500=0x7f0800fa;
+        public static final int md_grey_600=0x7f0800fb;
+        public static final int md_grey_700=0x7f0800fc;
+        public static final int md_grey_800=0x7f0800fd;
+        public static final int md_grey_900=0x7f0800fe;
+        public static final int md_indigo_100=0x7f080044;
+        public static final int md_indigo_200=0x7f080045;
+        public static final int md_indigo_300=0x7f080046;
+        public static final int md_indigo_400=0x7f080047;
         /**  indigo 
          */
-        public static final int md_indigo_50=0x7f05003c;
-        public static final int md_indigo_500=0x7f050041;
-        public static final int md_indigo_600=0x7f050042;
-        public static final int md_indigo_700=0x7f050043;
-        public static final int md_indigo_800=0x7f050044;
-        public static final int md_indigo_900=0x7f050045;
-        public static final int md_indigo_A100=0x7f050046;
-        public static final int md_indigo_A200=0x7f050047;
-        public static final int md_indigo_A400=0x7f050048;
-        public static final int md_indigo_A700=0x7f050049;
-        public static final int md_light_blue_100=0x7f050059;
-        public static final int md_light_blue_200=0x7f05005a;
-        public static final int md_light_blue_300=0x7f05005b;
-        public static final int md_light_blue_400=0x7f05005c;
+        public static final int md_indigo_50=0x7f080043;
+        public static final int md_indigo_500=0x7f080048;
+        public static final int md_indigo_600=0x7f080049;
+        public static final int md_indigo_700=0x7f08004a;
+        public static final int md_indigo_800=0x7f08004b;
+        public static final int md_indigo_900=0x7f08004c;
+        public static final int md_indigo_A100=0x7f08004d;
+        public static final int md_indigo_A200=0x7f08004e;
+        public static final int md_indigo_A400=0x7f08004f;
+        public static final int md_indigo_A700=0x7f080050;
+        public static final int md_light_blue_100=0x7f080060;
+        public static final int md_light_blue_200=0x7f080061;
+        public static final int md_light_blue_300=0x7f080062;
+        public static final int md_light_blue_400=0x7f080063;
         /**  light blue
          */
-        public static final int md_light_blue_50=0x7f050058;
-        public static final int md_light_blue_500=0x7f05005d;
-        public static final int md_light_blue_600=0x7f05005e;
-        public static final int md_light_blue_700=0x7f05005f;
-        public static final int md_light_blue_800=0x7f050060;
-        public static final int md_light_blue_900=0x7f050061;
-        public static final int md_light_blue_A100=0x7f050062;
-        public static final int md_light_blue_A200=0x7f050063;
-        public static final int md_light_blue_A400=0x7f050064;
-        public static final int md_light_blue_A700=0x7f050065;
-        public static final int md_light_green_100=0x7f050091;
-        public static final int md_light_green_200=0x7f050092;
-        public static final int md_light_green_300=0x7f050093;
-        public static final int md_light_green_400=0x7f050094;
+        public static final int md_light_blue_50=0x7f08005f;
+        public static final int md_light_blue_500=0x7f080064;
+        public static final int md_light_blue_600=0x7f080065;
+        public static final int md_light_blue_700=0x7f080066;
+        public static final int md_light_blue_800=0x7f080067;
+        public static final int md_light_blue_900=0x7f080068;
+        public static final int md_light_blue_A100=0x7f080069;
+        public static final int md_light_blue_A200=0x7f08006a;
+        public static final int md_light_blue_A400=0x7f08006b;
+        public static final int md_light_blue_A700=0x7f08006c;
+        public static final int md_light_green_100=0x7f080098;
+        public static final int md_light_green_200=0x7f080099;
+        public static final int md_light_green_300=0x7f08009a;
+        public static final int md_light_green_400=0x7f08009b;
         /** light green
          */
-        public static final int md_light_green_50=0x7f050090;
-        public static final int md_light_green_500=0x7f050095;
-        public static final int md_light_green_600=0x7f050096;
-        public static final int md_light_green_700=0x7f050097;
-        public static final int md_light_green_800=0x7f050098;
-        public static final int md_light_green_900=0x7f050099;
-        public static final int md_light_green_A100=0x7f05009a;
-        public static final int md_light_green_A200=0x7f05009b;
-        public static final int md_light_green_A400=0x7f05009c;
-        public static final int md_light_green_A700=0x7f05009d;
-        public static final int md_lime_100=0x7f05009f;
-        public static final int md_lime_200=0x7f0500a0;
-        public static final int md_lime_300=0x7f0500a1;
-        public static final int md_lime_400=0x7f0500a2;
+        public static final int md_light_green_50=0x7f080097;
+        public static final int md_light_green_500=0x7f08009c;
+        public static final int md_light_green_600=0x7f08009d;
+        public static final int md_light_green_700=0x7f08009e;
+        public static final int md_light_green_800=0x7f08009f;
+        public static final int md_light_green_900=0x7f0800a0;
+        public static final int md_light_green_A100=0x7f0800a1;
+        public static final int md_light_green_A200=0x7f0800a2;
+        public static final int md_light_green_A400=0x7f0800a3;
+        public static final int md_light_green_A700=0x7f0800a4;
+        public static final int md_lime_100=0x7f0800a6;
+        public static final int md_lime_200=0x7f0800a7;
+        public static final int md_lime_300=0x7f0800a8;
+        public static final int md_lime_400=0x7f0800a9;
         /**  lime
          */
-        public static final int md_lime_50=0x7f05009e;
-        public static final int md_lime_500=0x7f0500a3;
-        public static final int md_lime_600=0x7f0500a4;
-        public static final int md_lime_700=0x7f0500a5;
-        public static final int md_lime_800=0x7f0500a6;
-        public static final int md_lime_900=0x7f0500a7;
-        public static final int md_lime_A100=0x7f0500a8;
-        public static final int md_lime_A200=0x7f0500a9;
-        public static final int md_lime_A400=0x7f0500aa;
-        public static final int md_lime_A700=0x7f0500ab;
-        public static final int md_orange_100=0x7f0500c9;
-        public static final int md_orange_200=0x7f0500ca;
-        public static final int md_orange_300=0x7f0500cb;
-        public static final int md_orange_400=0x7f0500cc;
+        public static final int md_lime_50=0x7f0800a5;
+        public static final int md_lime_500=0x7f0800aa;
+        public static final int md_lime_600=0x7f0800ab;
+        public static final int md_lime_700=0x7f0800ac;
+        public static final int md_lime_800=0x7f0800ad;
+        public static final int md_lime_900=0x7f0800ae;
+        public static final int md_lime_A100=0x7f0800af;
+        public static final int md_lime_A200=0x7f0800b0;
+        public static final int md_lime_A400=0x7f0800b1;
+        public static final int md_lime_A700=0x7f0800b2;
+        public static final int md_orange_100=0x7f0800d0;
+        public static final int md_orange_200=0x7f0800d1;
+        public static final int md_orange_300=0x7f0800d2;
+        public static final int md_orange_400=0x7f0800d3;
         /** orange
          */
-        public static final int md_orange_50=0x7f0500c8;
-        public static final int md_orange_500=0x7f0500cd;
-        public static final int md_orange_600=0x7f0500ce;
-        public static final int md_orange_700=0x7f0500cf;
-        public static final int md_orange_800=0x7f0500d0;
-        public static final int md_orange_900=0x7f0500d1;
-        public static final int md_orange_A100=0x7f0500d2;
-        public static final int md_orange_A200=0x7f0500d3;
-        public static final int md_orange_A400=0x7f0500d4;
-        public static final int md_orange_A700=0x7f0500d5;
-        public static final int md_pink_100=0x7f050013;
-        public static final int md_pink_200=0x7f050014;
-        public static final int md_pink_300=0x7f050015;
-        public static final int md_pink_400=0x7f050016;
+        public static final int md_orange_50=0x7f0800cf;
+        public static final int md_orange_500=0x7f0800d4;
+        public static final int md_orange_600=0x7f0800d5;
+        public static final int md_orange_700=0x7f0800d6;
+        public static final int md_orange_800=0x7f0800d7;
+        public static final int md_orange_900=0x7f0800d8;
+        public static final int md_orange_A100=0x7f0800d9;
+        public static final int md_orange_A200=0x7f0800da;
+        public static final int md_orange_A400=0x7f0800db;
+        public static final int md_orange_A700=0x7f0800dc;
+        public static final int md_pink_100=0x7f08001a;
+        public static final int md_pink_200=0x7f08001b;
+        public static final int md_pink_300=0x7f08001c;
+        public static final int md_pink_400=0x7f08001d;
         /**  pinks 
          */
-        public static final int md_pink_50=0x7f050012;
-        public static final int md_pink_500=0x7f050017;
-        public static final int md_pink_600=0x7f050018;
-        public static final int md_pink_700=0x7f050019;
-        public static final int md_pink_800=0x7f05001a;
-        public static final int md_pink_900=0x7f05001b;
-        public static final int md_pink_A100=0x7f05001c;
-        public static final int md_pink_A200=0x7f05001d;
-        public static final int md_pink_A400=0x7f05001e;
-        public static final int md_pink_A700=0x7f05001f;
-        public static final int md_purple_100=0x7f050021;
-        public static final int md_purple_200=0x7f050022;
-        public static final int md_purple_300=0x7f050023;
-        public static final int md_purple_400=0x7f050024;
+        public static final int md_pink_50=0x7f080019;
+        public static final int md_pink_500=0x7f08001e;
+        public static final int md_pink_600=0x7f08001f;
+        public static final int md_pink_700=0x7f080020;
+        public static final int md_pink_800=0x7f080021;
+        public static final int md_pink_900=0x7f080022;
+        public static final int md_pink_A100=0x7f080023;
+        public static final int md_pink_A200=0x7f080024;
+        public static final int md_pink_A400=0x7f080025;
+        public static final int md_pink_A700=0x7f080026;
+        public static final int md_purple_100=0x7f080028;
+        public static final int md_purple_200=0x7f080029;
+        public static final int md_purple_300=0x7f08002a;
+        public static final int md_purple_400=0x7f08002b;
         /**  purples 
          */
-        public static final int md_purple_50=0x7f050020;
-        public static final int md_purple_500=0x7f050025;
-        public static final int md_purple_600=0x7f050026;
-        public static final int md_purple_700=0x7f050027;
-        public static final int md_purple_800=0x7f050028;
-        public static final int md_purple_900=0x7f050029;
-        public static final int md_purple_A100=0x7f05002a;
-        public static final int md_purple_A200=0x7f05002b;
-        public static final int md_purple_A400=0x7f05002c;
-        public static final int md_purple_A700=0x7f05002d;
-        public static final int md_red_100=0x7f050005;
-        public static final int md_red_200=0x7f050006;
-        public static final int md_red_300=0x7f050007;
-        public static final int md_red_400=0x7f050008;
+        public static final int md_purple_50=0x7f080027;
+        public static final int md_purple_500=0x7f08002c;
+        public static final int md_purple_600=0x7f08002d;
+        public static final int md_purple_700=0x7f08002e;
+        public static final int md_purple_800=0x7f08002f;
+        public static final int md_purple_900=0x7f080030;
+        public static final int md_purple_A100=0x7f080031;
+        public static final int md_purple_A200=0x7f080032;
+        public static final int md_purple_A400=0x7f080033;
+        public static final int md_purple_A700=0x7f080034;
+        public static final int md_red_100=0x7f08000c;
+        public static final int md_red_200=0x7f08000d;
+        public static final int md_red_300=0x7f08000e;
+        public static final int md_red_400=0x7f08000f;
         /**  google's material design colours from 
 http://www.google.com/design/spec/style/color.html#color-ui-color-palette 
 reds
          */
-        public static final int md_red_50=0x7f050004;
-        public static final int md_red_500=0x7f050009;
-        public static final int md_red_600=0x7f05000a;
-        public static final int md_red_700=0x7f05000b;
-        public static final int md_red_800=0x7f05000c;
-        public static final int md_red_900=0x7f05000d;
-        public static final int md_red_A100=0x7f05000e;
-        public static final int md_red_A200=0x7f05000f;
-        public static final int md_red_A400=0x7f050010;
-        public static final int md_red_A700=0x7f050011;
-        public static final int md_teal_100=0x7f050075;
-        public static final int md_teal_200=0x7f050076;
-        public static final int md_teal_300=0x7f050077;
-        public static final int md_teal_400=0x7f050078;
+        public static final int md_red_50=0x7f08000b;
+        public static final int md_red_500=0x7f080010;
+        public static final int md_red_600=0x7f080011;
+        public static final int md_red_700=0x7f080012;
+        public static final int md_red_800=0x7f080013;
+        public static final int md_red_900=0x7f080014;
+        public static final int md_red_A100=0x7f080015;
+        public static final int md_red_A200=0x7f080016;
+        public static final int md_red_A400=0x7f080017;
+        public static final int md_red_A700=0x7f080018;
+        public static final int md_teal_100=0x7f08007c;
+        public static final int md_teal_200=0x7f08007d;
+        public static final int md_teal_300=0x7f08007e;
+        public static final int md_teal_400=0x7f08007f;
         /**  teal 
          */
-        public static final int md_teal_50=0x7f050074;
-        public static final int md_teal_500=0x7f050079;
-        public static final int md_teal_600=0x7f05007a;
-        public static final int md_teal_700=0x7f05007b;
-        public static final int md_teal_800=0x7f05007c;
-        public static final int md_teal_900=0x7f05007d;
-        public static final int md_teal_A100=0x7f05007e;
-        public static final int md_teal_A200=0x7f05007f;
-        public static final int md_teal_A400=0x7f050080;
-        public static final int md_teal_A700=0x7f050081;
-        public static final int md_white_1000=0x7f0500f9;
-        public static final int md_yellow_100=0x7f0500ad;
-        public static final int md_yellow_200=0x7f0500ae;
-        public static final int md_yellow_300=0x7f0500af;
-        public static final int md_yellow_400=0x7f0500b0;
+        public static final int md_teal_50=0x7f08007b;
+        public static final int md_teal_500=0x7f080080;
+        public static final int md_teal_600=0x7f080081;
+        public static final int md_teal_700=0x7f080082;
+        public static final int md_teal_800=0x7f080083;
+        public static final int md_teal_900=0x7f080084;
+        public static final int md_teal_A100=0x7f080085;
+        public static final int md_teal_A200=0x7f080086;
+        public static final int md_teal_A400=0x7f080087;
+        public static final int md_teal_A700=0x7f080088;
+        public static final int md_white_1000=0x7f080100;
+        public static final int md_yellow_100=0x7f0800b4;
+        public static final int md_yellow_200=0x7f0800b5;
+        public static final int md_yellow_300=0x7f0800b6;
+        public static final int md_yellow_400=0x7f0800b7;
         /** yellow 
          */
-        public static final int md_yellow_50=0x7f0500ac;
-        public static final int md_yellow_500=0x7f0500b1;
-        public static final int md_yellow_600=0x7f0500b2;
-        public static final int md_yellow_700=0x7f0500b3;
-        public static final int md_yellow_800=0x7f0500b4;
-        public static final int md_yellow_900=0x7f0500b5;
-        public static final int md_yellow_A100=0x7f0500b6;
-        public static final int md_yellow_A200=0x7f0500b7;
-        public static final int md_yellow_A400=0x7f0500b8;
-        public static final int md_yellow_A700=0x7f0500b9;
+        public static final int md_yellow_50=0x7f0800b3;
+        public static final int md_yellow_500=0x7f0800b8;
+        public static final int md_yellow_600=0x7f0800b9;
+        public static final int md_yellow_700=0x7f0800ba;
+        public static final int md_yellow_800=0x7f0800bb;
+        public static final int md_yellow_900=0x7f0800bc;
+        public static final int md_yellow_A100=0x7f0800bd;
+        public static final int md_yellow_A200=0x7f0800be;
+        public static final int md_yellow_A400=0x7f0800bf;
+        public static final int md_yellow_A700=0x7f0800c0;
+        public static final int notification_action_color_filter=0x7f080003;
+        public static final int notification_icon_bg_color=0x7f080004;
+        public static final int notification_material_background_media_default_color=0x7f080000;
+        public static final int primary_text_default_material_dark=0x7f080001;
+        public static final int ripple_material_light=0x7f080005;
+        public static final int secondary_text_default_material_dark=0x7f080002;
+        public static final int secondary_text_default_material_light=0x7f080006;
+    }
+    public static final class dimen {
+        public static final int compat_button_inset_horizontal_material=0x7f0a0004;
+        public static final int compat_button_inset_vertical_material=0x7f0a0005;
+        public static final int compat_button_padding_horizontal_material=0x7f0a0006;
+        public static final int compat_button_padding_vertical_material=0x7f0a0007;
+        public static final int compat_control_corner_material=0x7f0a0008;
+        public static final int notification_action_icon_size=0x7f0a0009;
+        public static final int notification_action_text_size=0x7f0a000a;
+        public static final int notification_big_circle_margin=0x7f0a000b;
+        public static final int notification_content_margin_start=0x7f0a0001;
+        public static final int notification_large_icon_height=0x7f0a000c;
+        public static final int notification_large_icon_width=0x7f0a000d;
+        public static final int notification_main_column_padding_top=0x7f0a0002;
+        public static final int notification_media_narrow_margin=0x7f0a0003;
+        public static final int notification_right_icon_size=0x7f0a000e;
+        public static final int notification_right_side_padding_top=0x7f0a0000;
+        public static final int notification_small_icon_background_padding=0x7f0a000f;
+        public static final int notification_small_icon_size_as_large=0x7f0a0010;
+        public static final int notification_subtext_size=0x7f0a0011;
+        public static final int notification_top_pad=0x7f0a0012;
+        public static final int notification_top_pad_large_text=0x7f0a0013;
     }
     public static final class drawable {
         public static final int ic_launcher=0x7f020000;
         public static final int icon=0x7f020001;
-        public static final int roundbutton=0x7f020002;
+        public static final int notification_action_background=0x7f020002;
+        public static final int notification_bg=0x7f020003;
+        public static final int notification_bg_low=0x7f020004;
+        public static final int notification_bg_low_normal=0x7f020005;
+        public static final int notification_bg_low_pressed=0x7f020006;
+        public static final int notification_bg_normal=0x7f020007;
+        public static final int notification_bg_normal_pressed=0x7f020008;
+        public static final int notification_icon_background=0x7f020009;
+        public static final int notification_template_icon_bg=0x7f02000d;
+        public static final int notification_template_icon_low_bg=0x7f02000e;
+        public static final int notification_tile_bg=0x7f02000a;
+        public static final int notify_panel_notification_icon_bg=0x7f02000b;
+        public static final int roundbutton=0x7f02000c;
     }
     public static final class id {
-        public static final int Bababooey=0x7f080001;
-        public static final int BababooeyCount=0x7f080003;
-        public static final int Bababooeys=0x7f080002;
-        public static final int MainLayout=0x7f080000;
+        public static final int Bababooey=0x7f0b000b;
+        public static final int BababooeyCount=0x7f0b000d;
+        public static final int Bababooeys=0x7f0b000c;
+        public static final int MainLayout=0x7f0b000a;
+        public static final int action0=0x7f0b0012;
+        public static final int action_container=0x7f0b000f;
+        public static final int action_divider=0x7f0b0016;
+        public static final int action_image=0x7f0b0010;
+        public static final int action_text=0x7f0b0011;
+        public static final int actions=0x7f0b0020;
+        public static final int adView=0x7f0b000e;
+        public static final int async=0x7f0b0005;
+        public static final int blocking=0x7f0b0006;
+        public static final int cancel_action=0x7f0b0013;
+        public static final int chronometer=0x7f0b001b;
+        public static final int end_padder=0x7f0b0022;
+        public static final int forever=0x7f0b0007;
+        public static final int icon=0x7f0b001d;
+        public static final int icon_group=0x7f0b0021;
+        public static final int info=0x7f0b001c;
+        public static final int italic=0x7f0b0008;
+        public static final int line1=0x7f0b0000;
+        public static final int line3=0x7f0b0001;
+        public static final int media_actions=0x7f0b0015;
+        public static final int normal=0x7f0b0009;
+        public static final int notification_background=0x7f0b001f;
+        public static final int notification_main_column=0x7f0b0018;
+        public static final int notification_main_column_container=0x7f0b0017;
+        public static final int right_icon=0x7f0b001e;
+        public static final int right_side=0x7f0b0019;
+        public static final int status_bar_latest_event_content=0x7f0b0014;
+        public static final int text=0x7f0b0002;
+        public static final int text2=0x7f0b0003;
+        public static final int time=0x7f0b001a;
+        public static final int title=0x7f0b0004;
+    }
+    public static final class integer {
+        public static final int cancel_button_image_alpha=0x7f050001;
+        public static final int google_play_services_version=0x7f050000;
+        public static final int status_bar_notification_info_maxnum=0x7f050002;
     }
     public static final class layout {
         public static final int main=0x7f030000;
+        public static final int notification_action=0x7f030001;
+        public static final int notification_action_tombstone=0x7f030002;
+        public static final int notification_media_action=0x7f030003;
+        public static final int notification_media_cancel_action=0x7f030004;
+        public static final int notification_template_big_media=0x7f030005;
+        public static final int notification_template_big_media_custom=0x7f030006;
+        public static final int notification_template_big_media_narrow=0x7f030007;
+        public static final int notification_template_big_media_narrow_custom=0x7f030008;
+        public static final int notification_template_custom_big=0x7f030009;
+        public static final int notification_template_icon_group=0x7f03000a;
+        public static final int notification_template_lines_media=0x7f03000b;
+        public static final int notification_template_media=0x7f03000c;
+        public static final int notification_template_media_custom=0x7f03000d;
+        public static final int notification_template_part_chronometer=0x7f03000e;
+        public static final int notification_template_part_time=0x7f03000f;
     }
     public static final class raw {
         public static final int bababooey=0x7f040000;
     }
     public static final class string {
-        public static final int ApplicationName=0x7f060001;
-        public static final int Bababooey=0x7f060000;
-        public static final int BababooeyCounter=0x7f060002;
+        public static final int Ad_Mob_App_Id=0x7f060006;
+        public static final int ApplicationName=0x7f060003;
+        public static final int Bababooey=0x7f060002;
+        public static final int BababooeyCounter=0x7f060004;
+        public static final int banner_ad_unit_id=0x7f060005;
+        public static final int common_google_play_services_unknown_issue=0x7f060000;
+        public static final int status_bar_notification_info_overflow=0x7f060001;
     }
     public static final class style {
         /**  Inherit from the light Material Theme 
          */
-        public static final int MaterialTheme=0x7f070000;
+        public static final int MaterialTheme=0x7f07000d;
+        public static final int TextAppearance_Compat_Notification=0x7f070006;
+        public static final int TextAppearance_Compat_Notification_Info=0x7f070007;
+        public static final int TextAppearance_Compat_Notification_Info_Media=0x7f070001;
+        public static final int TextAppearance_Compat_Notification_Line2=0x7f07000c;
+        public static final int TextAppearance_Compat_Notification_Line2_Media=0x7f070005;
+        public static final int TextAppearance_Compat_Notification_Media=0x7f070002;
+        public static final int TextAppearance_Compat_Notification_Time=0x7f070008;
+        public static final int TextAppearance_Compat_Notification_Time_Media=0x7f070003;
+        public static final int TextAppearance_Compat_Notification_Title=0x7f070009;
+        public static final int TextAppearance_Compat_Notification_Title_Media=0x7f070004;
+        public static final int Theme_IAPTheme=0x7f070000;
+        public static final int Widget_Compat_NotificationActionContainer=0x7f07000a;
+        public static final int Widget_Compat_NotificationActionText=0x7f07000b;
     }
+    public static final class styleable {
+        /** Attributes that can be used with a AdsAttrs.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #AdsAttrs_adSize Bababooey.Bababooey:adSize}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adSizes Bababooey.Bababooey:adSizes}</code></td><td></td></tr>
+           <tr><td><code>{@link #AdsAttrs_adUnitId Bababooey.Bababooey:adUnitId}</code></td><td></td></tr>
+           </table>
+           @see #AdsAttrs_adSize
+           @see #AdsAttrs_adSizes
+           @see #AdsAttrs_adUnitId
+         */
+        public static final int[] AdsAttrs = {
+            0x7f010000, 0x7f010001, 0x7f010002
+        };
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#adSize}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:adSize
+        */
+        public static final int AdsAttrs_adSize = 0;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#adSizes}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:adSizes
+        */
+        public static final int AdsAttrs_adSizes = 1;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#adUnitId}
+          attribute's value can be found in the {@link #AdsAttrs} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:adUnitId
+        */
+        public static final int AdsAttrs_adUnitId = 2;
+        /** Attributes that can be used with a FontFamily.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderAuthority Bababooey.Bababooey:fontProviderAuthority}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderCerts Bababooey.Bababooey:fontProviderCerts}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchStrategy Bababooey.Bababooey:fontProviderFetchStrategy}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderFetchTimeout Bababooey.Bababooey:fontProviderFetchTimeout}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderPackage Bababooey.Bababooey:fontProviderPackage}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamily_fontProviderQuery Bababooey.Bababooey:fontProviderQuery}</code></td><td></td></tr>
+           </table>
+           @see #FontFamily_fontProviderAuthority
+           @see #FontFamily_fontProviderCerts
+           @see #FontFamily_fontProviderFetchStrategy
+           @see #FontFamily_fontProviderFetchTimeout
+           @see #FontFamily_fontProviderPackage
+           @see #FontFamily_fontProviderQuery
+         */
+        public static final int[] FontFamily = {
+            0x7f010003, 0x7f010004, 0x7f010005, 0x7f010006,
+            0x7f010007, 0x7f010008
+        };
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderAuthority}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:fontProviderAuthority
+        */
+        public static final int FontFamily_fontProviderAuthority = 0;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderCerts}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name Bababooey.Bababooey:fontProviderCerts
+        */
+        public static final int FontFamily_fontProviderCerts = 3;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderFetchStrategy}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>blocking</code></td><td>0</td><td></td></tr>
+<tr><td><code>async</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name Bababooey.Bababooey:fontProviderFetchStrategy
+        */
+        public static final int FontFamily_fontProviderFetchStrategy = 4;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderFetchTimeout}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>May be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+<p>May be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>forever</code></td><td>-1</td><td></td></tr>
+</table>
+          @attr name Bababooey.Bababooey:fontProviderFetchTimeout
+        */
+        public static final int FontFamily_fontProviderFetchTimeout = 5;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderPackage}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:fontProviderPackage
+        */
+        public static final int FontFamily_fontProviderPackage = 1;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontProviderQuery}
+          attribute's value can be found in the {@link #FontFamily} array.
+
+
+          <p>Must be a string value, using '\\;' to escape characters such as '\\n' or '\\uxxxx' for a unicode character.
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:fontProviderQuery
+        */
+        public static final int FontFamily_fontProviderQuery = 2;
+        /** Attributes that can be used with a FontFamilyFont.
+           <p>Includes the following attributes:</p>
+           <table>
+           <colgroup align="left" />
+           <colgroup align="left" />
+           <tr><th>Attribute</th><th>Description</th></tr>
+           <tr><td><code>{@link #FontFamilyFont_font Bababooey.Bababooey:font}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontStyle Bababooey.Bababooey:fontStyle}</code></td><td></td></tr>
+           <tr><td><code>{@link #FontFamilyFont_fontWeight Bababooey.Bababooey:fontWeight}</code></td><td></td></tr>
+           </table>
+           @see #FontFamilyFont_font
+           @see #FontFamilyFont_fontStyle
+           @see #FontFamilyFont_fontWeight
+         */
+        public static final int[] FontFamilyFont = {
+            0x7f010009, 0x7f01000a, 0x7f01000b
+        };
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#font}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be a reference to another resource, in the form "<code>@[+][<i>package</i>:]<i>type</i>:<i>name</i></code>"
+or to a theme attribute in the form "<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>".
+          @attr name Bababooey.Bababooey:font
+        */
+        public static final int FontFamilyFont_font = 1;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontStyle}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be one of the following constant values.</p>
+<table>
+<colgroup align="left" />
+<colgroup align="left" />
+<colgroup align="left" />
+<tr><th>Constant</th><th>Value</th><th>Description</th></tr>
+<tr><td><code>normal</code></td><td>0</td><td></td></tr>
+<tr><td><code>italic</code></td><td>1</td><td></td></tr>
+</table>
+          @attr name Bababooey.Bababooey:fontStyle
+        */
+        public static final int FontFamilyFont_fontStyle = 0;
+        /**
+          <p>This symbol is the offset where the {@link Bababooey.Bababooey.R.attr#fontWeight}
+          attribute's value can be found in the {@link #FontFamilyFont} array.
+
+
+          <p>Must be an integer value, such as "<code>100</code>".
+<p>This may also be a reference to a resource (in the form
+"<code>@[<i>package</i>:]<i>type</i>:<i>name</i></code>") or
+theme attribute (in the form
+"<code>?[<i>package</i>:][<i>type</i>:]<i>name</i></code>")
+containing a value of this type.
+          @attr name Bababooey.Bababooey:fontWeight
+        */
+        public static final int FontFamilyFont_fontWeight = 2;
+    };
 }

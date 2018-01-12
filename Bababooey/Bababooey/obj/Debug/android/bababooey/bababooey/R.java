@@ -470,40 +470,42 @@ reds
         public static final int roundbutton=0x7f02000c;
     }
     public static final class id {
-        public static final int Bababooey=0x7f0b000b;
-        public static final int BababooeyCount=0x7f0b000d;
-        public static final int Bababooeys=0x7f0b000c;
+        public static final int Bababooey=0x7f0b000c;
+        public static final int BababooeyCount=0x7f0b000f;
+        public static final int Bababooeys=0x7f0b000e;
+        public static final int ButtonContent=0x7f0b000b;
         public static final int MainLayout=0x7f0b000a;
-        public static final int action0=0x7f0b0012;
-        public static final int action_container=0x7f0b000f;
-        public static final int action_divider=0x7f0b0016;
-        public static final int action_image=0x7f0b0010;
-        public static final int action_text=0x7f0b0011;
-        public static final int actions=0x7f0b0020;
-        public static final int adView=0x7f0b000e;
+        public static final int TextContent=0x7f0b000d;
+        public static final int action0=0x7f0b0014;
+        public static final int action_container=0x7f0b0011;
+        public static final int action_divider=0x7f0b0018;
+        public static final int action_image=0x7f0b0012;
+        public static final int action_text=0x7f0b0013;
+        public static final int actions=0x7f0b0022;
+        public static final int adView=0x7f0b0010;
         public static final int async=0x7f0b0005;
         public static final int blocking=0x7f0b0006;
-        public static final int cancel_action=0x7f0b0013;
-        public static final int chronometer=0x7f0b001b;
-        public static final int end_padder=0x7f0b0022;
+        public static final int cancel_action=0x7f0b0015;
+        public static final int chronometer=0x7f0b001d;
+        public static final int end_padder=0x7f0b0024;
         public static final int forever=0x7f0b0007;
-        public static final int icon=0x7f0b001d;
-        public static final int icon_group=0x7f0b0021;
-        public static final int info=0x7f0b001c;
+        public static final int icon=0x7f0b001f;
+        public static final int icon_group=0x7f0b0023;
+        public static final int info=0x7f0b001e;
         public static final int italic=0x7f0b0008;
         public static final int line1=0x7f0b0000;
         public static final int line3=0x7f0b0001;
-        public static final int media_actions=0x7f0b0015;
+        public static final int media_actions=0x7f0b0017;
         public static final int normal=0x7f0b0009;
-        public static final int notification_background=0x7f0b001f;
-        public static final int notification_main_column=0x7f0b0018;
-        public static final int notification_main_column_container=0x7f0b0017;
-        public static final int right_icon=0x7f0b001e;
-        public static final int right_side=0x7f0b0019;
-        public static final int status_bar_latest_event_content=0x7f0b0014;
+        public static final int notification_background=0x7f0b0021;
+        public static final int notification_main_column=0x7f0b001a;
+        public static final int notification_main_column_container=0x7f0b0019;
+        public static final int right_icon=0x7f0b0020;
+        public static final int right_side=0x7f0b001b;
+        public static final int status_bar_latest_event_content=0x7f0b0016;
         public static final int text=0x7f0b0002;
         public static final int text2=0x7f0b0003;
-        public static final int time=0x7f0b001a;
+        public static final int time=0x7f0b001c;
         public static final int title=0x7f0b0004;
     }
     public static final class integer {
@@ -533,11 +535,11 @@ reds
         public static final int bababooey=0x7f040000;
     }
     public static final class string {
-        public static final int Ad_Mob_App_Id=0x7f060006;
+        public static final int App_Id=0x7f060006;
         public static final int ApplicationName=0x7f060003;
         public static final int Bababooey=0x7f060002;
         public static final int BababooeyCounter=0x7f060004;
-        public static final int banner_ad_unit_id=0x7f060005;
+        public static final int ad_unit_id=0x7f060005;
         public static final int common_google_play_services_unknown_issue=0x7f060000;
         public static final int status_bar_notification_info_overflow=0x7f060001;
     }

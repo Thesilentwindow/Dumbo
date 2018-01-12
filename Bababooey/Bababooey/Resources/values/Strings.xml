@@ -3,6 +3,6 @@
     <string name="Bababooey">Bababooey</string>
     <string name="ApplicationName">Bababooey</string>
     <string name="BababooeyCounter">0</string>
-    <string name="banner_ad_unit_id">ca-app-pub-9064979225865217/9290212061</string>
-    <string name="Ad_Mob_App_Id">ca-app-pub-9064979225865217~2217413547</string>
+    <string name="ad_unit_id">ca-app-pub-9064979225865217/9290212061</string>
+    <string name="App_Id">ca-app-pub-9064979225865217~2217413547</string>
 </resources>

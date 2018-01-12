@@ -14,7 +14,8 @@ namespace Bababooey
 
     public class MainActivity : Activity
     {
-        int count = 0;
+        private int _count = 0;
+        protected AdView mAdView;
 
         protected override void OnCreate(Bundle bundle)
         {
@@ -26,25 +27,26 @@ namespace Bababooey
             // Get our button from the layout resource,
             // and attach an event to it         
             Button button = FindViewById<Button>(Resource.Id.Bababooey);
+            MediaPlayer mp;
+
             var localNotes = Application.Context.GetSharedPreferences("Notes", FileCreationMode.Private); //create Notes sharedpreferences file in private mode(så er denne app den eneste app der kan bruge den)
             var noteEdit = localNotes.Edit();// redigering af Notes fil
             string countFromPref = localNotes.GetString("Count", null); //Get Count key value pair from sharedpreferences
-            count = Convert.ToInt32(countFromPref);
-            MediaPlayer mp;
+            _count = Convert.ToInt32(countFromPref);
+
+
             var tv = (TextView)FindViewById(Resource.Id.BababooeyCount); //Variable to edit textview, aka label, with.
-            tv.Text = count.ToString();
+            tv.Text = _count.ToString();
 
             //AdMob Ads initialization
-            var id = this.Resources.GetString(Resource.String.Ad_Mob_App_Id); // Gets AdMob AppId from Strings resource
-            MobileAds.Initialize(ApplicationContext, id);
-            var adView = FindViewById<AdView>(Resource.Id.adView);
-            var adRequest = new AdRequest.Builder().Build();
-            adView.LoadAd(adRequest);
+            mAdView = FindViewById<AdView>(Resource.Id.adView); //Finder vores AdView control
+            AdRequest adRequest = new AdRequest.Builder().Build(); // Sender er ad request og holder på den ad som den modtager
+            mAdView.LoadAd(adRequest); //indlæser ad fra adRequest så den kan vises
+
 
 
             if (countFromPref == string.Empty) //if content from sharedpref is empty set count to 0
             {
-
                 tv.Text = "0";
             }
             else //if content from sharedpref contains number set textview to that content
@@ -63,15 +65,15 @@ namespace Bababooey
             };
             mp.Completion += delegate
             {
-                count++;
-                tv.Text = count.ToString();
+                _count++;
+                tv.Text = _count.ToString();
             };
             button.LongClick += delegate
             {
                 noteEdit.Clear();
                 Toast.MakeText(this, "Thine Bababooey has been cleansed", ToastLength.Short).Show();
-                count = 0;
-                tv.Text = count.ToString();
+                _count = 0;
+                tv.Text = _count.ToString();
             };
             #endregion
         }

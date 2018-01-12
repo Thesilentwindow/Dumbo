@@ -2,7 +2,7 @@
 <xs:schema xmlns:tools="http://schemas.android.com/tools" attributeFormDefault="qualified" targetNamespace="http://schemas.android.com/tools" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:annotation>
     <xs:documentation>v25</xs:documentation>
-    <xs:documentation>08-Jan-18 2:44:19 PM</xs:documentation>
+    <xs:documentation>11-Jan-18 11:11:56 AM</xs:documentation>
   </xs:annotation>
   <xs:attribute name="layout">
     <xs:annotation>
@@ -285,11 +285,11 @@
       <xs:union memberTypes="xs:string">
         <xs:simpleType>
           <xs:restriction base="xs:string">
-            <xs:enumeration value="@string/Ad_Mob_App_Id" />
+            <xs:enumeration value="@string/ad_unit_id" />
+            <xs:enumeration value="@string/App_Id" />
             <xs:enumeration value="@string/ApplicationName" />
             <xs:enumeration value="@string/Bababooey" />
             <xs:enumeration value="@string/BababooeyCounter" />
-            <xs:enumeration value="@string/banner_ad_unit_id" />
             <xs:enumeration value="@string/common_google_play_services_unknown_issue" />
             <xs:enumeration value="@string/status_bar_notification_info_overflow" />
             <xs:enumeration value="@android:string/cancel" />
